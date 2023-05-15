@@ -1,0 +1,18 @@
+@charset "UTF-8";  /* usar essa configuração no início para não ter problemas com acentuações */
+
+body{
+    background-color: rgb(197, 170, 133);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+h1{
+    color: rgb(206, 218, 100);
+    background-color: orangered;
+}
+h2{
+    color: rgb(15, 130, 0);
+}
+p{
+    text-align: justify;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste com imagens</title>
+</head>
+<body>
+    <h1>Testando carga de imagens</h1>
+    <p>abaixo você vai ver uma imagem que está na mesma pasta</p>
+    <img src="logo-puro-200x137.png" alt="logo puro audiovisual">
+    <img src="plaza-logo-200x113.png" alt="logo plaza estreito"><!--imagens tiradas direto da raiz-->
+    <p>Essas são imagens tiradas de um caminho na pasta raiz</p>
+    <img src="imagens/logo-puro-200x137.png" alt="logo puro audiovisual">
+    <img src="imagens/plaza-logo-200x113.png" alt="logo plaza estreito">
+    <!--esse são exemplos de como é puxada a imagem da pasta, ou seja, ela faz um caminho no imagens/plaza-logo... etc-->
+    <p>Também podemos carregar imagens externas</p>
+    <img src="https://cdn.iconscout.com/icon/free/png-512/redbull-282301.png?f=avif&w=256" alt="logo redbull"> <!--URL-->
+    <p>essa imagem acima &uparrow; foi puxada de um link <br> se o servidor que a imagem está hospedada cair <br> a imagem deixa de estar no site também</p>
+</body>
+</html>
