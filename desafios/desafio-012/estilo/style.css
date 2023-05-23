@@ -1,8 +1,17 @@
 @charset "UTF-U";
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
+}
+
+:root {
+    --fontpoemas: 'pacifico', verdana;
+    --fonttitulo: 'poppins'
 }
 
 html, body {
@@ -13,18 +22,22 @@ header {
     background-color: rgb(31, 31, 31);
     height: 200px;
     margin: auto;
+    font-family: var(--fonttitulo);
 }
 
 header h1 {
     color: white;
     text-align: center;
     font-variant: small-caps;
-    padding-top: 75px;   
+    padding-top: 45px;
+    
+    font-size: 5vh;
 }
 
 header p, a {
     color: white;
     text-align: center;
+    
  
 }
 
@@ -43,6 +56,8 @@ section {
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    font-family: var(--fontpoemas);
+    font-size: 3vw;
 }
 
 section.normal {
@@ -61,6 +76,22 @@ section.imagem p {
     width: 500px;
     padding: 20px;
     border-radius: 10px;
+}
+
+section#img1 {
+    background-image: url('../imagens/background001.jpg');
+    background-position:  center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0px 5px 13px rgba(0, 0, 0, 0.432);
+}
+
+section#img2 {
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0px 5px 13px rgba(0, 0, 0, 0.432);
+    
 }
 
 footer {
