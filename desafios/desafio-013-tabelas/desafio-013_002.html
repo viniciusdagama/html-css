@@ -13,19 +13,23 @@
         table {
             border-collapse: collapse;
         }
-        thead {
-            background-color: chartreuse;
-        }
-
+        
         th, td {
             border: 1px solid black;
             padding: 10px;
+            
+        }
+        td {
+            text-align: center;
+        }
+        .destaque {
+            background-color: rgb(85, 95, 189);
         }
     </style>
 </head>
 <body>
     <table>
-        <thead>
+        <thead class="destaque">
             <tr>
                 <th rowspan="2" scope="col">Área</th>
                 <th rowspan="2" scope="col">Disciplinas</th>
@@ -64,8 +68,8 @@
                 <td>10</td>
                 <td>10</td>
             </tr>
-            <tr style="background-color: chartreuse;">
-                <th colspan="4" scope="row">Média de Exatas</th>
+            <tr class="destaque">
+                <th colspan="4" scope="row" style="text-align: left;">Média de Exatas</th>
                 <td>10</td>
             </tr>
             <tr>
@@ -81,8 +85,8 @@
                 <td>10</td>
                 <td>10</td>
             </tr>
-            <tr style="background-color: chartreuse;">
-                <th colspan="4" scope="row">Média de Humanas</th>
+            <tr class="destaque">
+                <th colspan="4" scope="row" style="text-align: left;">Média de Humanas</th>
                 <td>10</td>
             </tr>
         </tbody>
